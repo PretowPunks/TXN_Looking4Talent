@@ -2,6 +2,7 @@ from playwright.sync_api import sync_playwright
 
 def login():
 
+
     with sync_playwright() as p:
         email = 'allisson@professor.educacao.sp.gov.br' #input('Digite o e-mail da sua conta no LinkedIn: ')
         senha = 'linkedinsenha' #input('Digite a senha da sua conta do LinkedIn: ')
